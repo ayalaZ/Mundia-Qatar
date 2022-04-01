@@ -1,0 +1,21 @@
+:root{
+    --color-primario: #56042C;
+    --color-secundario: #FEC310;
+    --color-tercero: #49BCE3;
+    --color-cuarto: #1077c3;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('../img/fondo.png');
+}
+#encabezado{
+    background-color: var(--color-primario);
+    text-align: center;
+    padding: 10px;
+}
+#encabezado h1{
+    font-weight: bold;
+}
